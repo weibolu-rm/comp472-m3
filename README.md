@@ -4,6 +4,7 @@
 - Gensim
 - Python 3.8
 - Jupyter
+- matplotlib (for plotting, optional)
 
 # Getting Started
 
@@ -14,7 +15,7 @@ and install requirements
 ```
 virtualenv -p python3 venv
 source venv/bin/activate
-pip install gensim jupyter
+pip install gensim jupyter matplotlib
 ```
 
 ## Run
@@ -25,5 +26,8 @@ jupyter notebook
 
 Then execute all the blocks in `mp3.ipynb`
 
+To plot the results run blocks in `plotter.ipynb`
 
+# Acknowledgements
+Pretrained models from [here](https://github.com/RaRe-Technologies/gensim-data)
 
